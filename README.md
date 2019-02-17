@@ -1,5 +1,5 @@
 ## UICacheView
-Allow your users to save their mobile data by caching each and every image they scroll past.
+A cocoapod that allows you to load images directly via a URL, as well as helps save the mobile data of your users by caching each and every image that they load.
 
 ```swift
 

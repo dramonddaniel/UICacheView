@@ -3,7 +3,7 @@ A cocoapod that allows you to load images directly via a URL, as well as helps s
 
 ```swift
 
-lazy var cache: UICacheView = {
+let cache: UICacheView = {
     let view = UICacheView(frame: .zero)
     let url = "https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12193133/German-Shepherd-Puppy-Fetch.jpg"
     view.loadImageFromURL(url)
